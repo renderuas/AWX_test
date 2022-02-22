@@ -1,0 +1,6 @@
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello World in the second step
+      debug:
+        msg: "Hello World in the second step!"
